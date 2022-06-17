@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #0A192F;
+}
+.banner{
+    width: 100%;
+    height: 150px;
+    background-color: #0A192F;
+    display: flex;
+}
+
+.img{
+    padding-top:  40px;
+    margin-left: 100px;
+    width: 80px;
+    height: 120px;
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes logo {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.collection{
+    display: flex;
+    list-style-type: none;
+    flex: 1;
+}
+
+.item{
+    margin-top: 70px;
+    color: #C2CCEB;
+    margin-left: 50px;
+    animation: item 1s linear forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+
+@keyframes item {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+ 
+.item1:nth-child(1){
+    animation-delay: 1s;
+}
+
+.item2:nth-child(2){
+    animation-delay: 1.5s;
+}
+
+.item3:nth-child(3){
+    animation-delay: 2s;
+}
+
+.item4:nth-child(4){
+    animation-delay: 2.5s;
+}
+
+.item1{
+    margin-top: 70px;
+    color: #C2CCEB;
+    margin-left: 650px;
+    animation: item 1s linear forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes item1 {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.item1:hover{
+    color: #64FFDA;
+}
+
+.item2{
+    margin-top: 70px;
+    color: #C2CCEB;
+    margin-left: 50px;
+    animation: item 1s linear forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes item1 {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.item2:hover{
+    color: #64FFDA;
+}
+.item3{
+    margin-top: 70px;
+    color: #C2CCEB;
+    margin-left: 50px;
+    animation: item 1s linear forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes item1 {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.item3:hover{
+    color: #64FFDA;
+}
+.item4{
+    margin-top: 70px;
+    color: #C2CCEB;
+    margin-left: 50px;
+    animation: item 1s linear forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes item1 {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.item4:hover{
+    color: #64FFDA;
+}
+
+.resume{
+    width: 83px;
+    height: 39px;
+    border: 1px solid #64FFDA;
+    background-color: #0A192F;
+    color: #C2CCEB;
+    margin-top: 60px;
+    margin-right: 100px;
+    animation-name: resume;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes resume {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.resume:hover{
+    border: 2px solid #64FFDA;
+    background-color: #183055;
+    color: #64FFDA;
+}
+
+.banner2{
+    width: 70%;
+    height: 600px;
+    background-color: #0A192F;
+    margin-left: 15%;
+}
+.ban2_p{
+    color: #64FFDA;
+    font-size: 22px;
+    padding-top: 50px;
+    margin-left: 50px;
+    animation-name: ban2_p;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes ban2_p {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.ban2_h1{
+    color: #CCD6F6;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-left: 50px;
+    animation-name: ban2_h1;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes ban2_h1 {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.ban2_h2{
+    color: #8892B0;
+    font-size: 70px;
+    margin-top: 25px;
+    margin-left: 50px;
+    animation-name: ban2_h1;
+    animation-duration: 1s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes ban2_h1 {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.ban2{
+    color: #8892B0;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 50px;
+    animation-name: ban2;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes ban2 {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.ban2:hover{
+    color: #64FFDA;
+}
+
+.ban2_button{
+    width: 231px;
+    height: 56px;
+    border: 1px solid #64FFDA;
+    color: #C2CCEB;
+    background-color: #0A192F;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+    animation-name: ban2;
+    animation-duration: 1s;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+    transform: translateY(-80px);
+    opacity: 0;
+}
+@keyframes ban2 {
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.ban2_button:hover{
+    border: 2px solid #64FFDA;
+    color: #64FFDA;
+    background-color: #183055;
+}
+
+.banner3{
+    width: 100px;
+    height: 100px;
+    background-color:#18305500;
+    border: 1px solid gray;
+    margin-top: -550px;
+    animation-name: ban3;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes ban3 {
+    from{
+        background: #18305500;
+        transform: translateX(0px);
+    }
+    to{
+        background: #18305500;
+        transform: translateX(1300px) rotate(360deg); 
+         border-radius: 50%; 
+    }
+}
+.banner3:hover{
+    border: 5px solid gray;
+}
+
+.banner4{
+    width: 100px;
+    height: 100px;
+    background-color: #18305500;
+    margin-top: 250px;
+    border: 1px solid gray;
+    animation-name: ban4;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes ban4 {
+    from{
+        background: #18305500;
+        transform: translateX(0px);
+    }
+    to{
+        background: #18305500;
+        transform: translateX(1300px) rotate(360deg); 
+         border-radius: 50%; 
+    }
+}
+.banner4:hover{
+    border: 5px solid gray;
+}
